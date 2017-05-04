@@ -20,14 +20,14 @@ namespace CodersCat.ConsoleUI
                 Console.WriteLine(ui.BuyCat(age));
             }
             Console.WriteLine("Нажмите Ввод для общения с питомцем: ");
-            var t = ConsoleKey.C;
-            while(t!= ConsoleKey.D0){
+            var userInput = ConsoleKey.C;
+            while(userInput!= ConsoleKey.D0){
                 Console.WriteLine(ui.GetCatInfo());
                 DrawMenu();
                 Console.Write("Нажмите клавишу для выбора пункта: ");
-                t = Console.ReadKey().Key;
+                userInput = Console.ReadKey().Key;
                 Console.WriteLine();
-                switch (t)
+                switch (userInput)
                 {
                     case ConsoleKey.D1:
                         Console.Write("Введите новое имя кошки: ");
@@ -46,7 +46,7 @@ namespace CodersCat.ConsoleUI
                         Console.WriteLine("Такого пункта в меню нет.");
                         break;
                 }
-                Thread.Sleep(1000);
+                Thread.Sleep(1500);
                 Console.Clear();
             }
         }
