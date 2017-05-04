@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersCat.UI", "CodersCat.UI\CodersCat.UI.csproj", "{1F0656BE-3A48-4266-A03F-A3AF645EC5EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersCat.ConsoleUI", "CodersCat.UI\CodersCat.ConsoleUI.csproj", "{1F0656BE-3A48-4266-A03F-A3AF645EC5EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersCat.Model", "CodersCat.Model\CodersCat.Model.csproj", "{E78CBA87-F9FC-4B25-A6F4-6E7AE0E9456D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersCat.Tests", "CodersCat.Tests\CodersCat.Tests.csproj", "{41E10910-4471-400A-AACE-761C38BD6404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersCat.Presentation", "CodersCat.Presentation\CodersCat.Presentation.csproj", "{B32ABB9E-E27A-4BA8-B745-C1F7D6BA203E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{41E10910-4471-400A-AACE-761C38BD6404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41E10910-4471-400A-AACE-761C38BD6404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41E10910-4471-400A-AACE-761C38BD6404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32ABB9E-E27A-4BA8-B745-C1F7D6BA203E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32ABB9E-E27A-4BA8-B745-C1F7D6BA203E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32ABB9E-E27A-4BA8-B745-C1F7D6BA203E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32ABB9E-E27A-4BA8-B745-C1F7D6BA203E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

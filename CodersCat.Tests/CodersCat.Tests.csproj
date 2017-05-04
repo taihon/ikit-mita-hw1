@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CodersCat.Model\CodersCat.Model.csproj" />
-    <ProjectReference Include="..\CodersCat.UI\CodersCat.UI.csproj" />
+    <ProjectReference Include="..\CodersCat.Presentation\CodersCat.Presentation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
