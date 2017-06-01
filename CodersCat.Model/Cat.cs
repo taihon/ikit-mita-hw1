@@ -25,7 +25,7 @@ namespace CodersCat.Model
             Age = age;
         }
         private string name;
-        public int Age { get; internal set; }
+        public int Age { get; }
         public string Name { get { return name; } set {
                 if (string.IsNullOrWhiteSpace(name))
                 {
